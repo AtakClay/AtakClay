@@ -77,7 +77,16 @@ export default function Footer() {
             <h3 className="text-white font-semibold mb-4">Hubungi Kami</h3>
             <ul className="space-y-2 text-sm">
               <li>Email: support@atakppob.com</li>
-              <li>WhatsApp: +62 812-3456-7890</li>
+              <li>
+                <a 
+                  href="https://wa.me/6287765821338" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-400 transition-colors"
+                >
+                  WhatsApp: 087765821338
+                </a>
+              </li>
               <li>Jam Operasional: 24/7</li>
             </ul>
           </div>
